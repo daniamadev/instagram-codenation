@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #fafafa;
+  font-family: "Open Sans";
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  height: 56px;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  width: 100%;
+  background: white;
+  top: 0;
+}
+
+.cabecalho__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cabecalho__img {
+  height: 40px;
+  margin-top: 10px;
+}
+
+.cabecalho__btn {
+  color: black;
+  border: none;
+  font-size: 25px;
+  align-self: center;
+}
+
+.stories {
+  padding: 30px 0;
+}
+
+.stories__img {
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.stories__img--new {
+  width: 80px;
+  background: linear-gradient(
+    45deg,
+    rgba(245, 160, 77, 1) 0%,
+    rgba(160, 15, 139, 1) 100%
+  );
+  padding: 3px;
+}
+
+.feed {
+  max-width: 100%;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+  margin-bottom: 30px;
+}
+
+.user {
+  padding: 5px;
+  display: flex;
+  align-self: center;
+}
+
+.user__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.user__name {
+  font-weight: bold;
+  color: black;
+  font-size: 12px;
+  align-self: center;
+  padding-left: 10px;
+}
+
+.user__more {
+  border: none;
+  justify-self: flex-end;
+  margin-left: auto;
+  background: transparent;
+}
+
+.post__img {
+  width: 100%;
+  background-size: cover;
+}
+
+.footer {
+  /*   padding: 5px; */
+  font-size: 12px;
+}
+
+.footer__top {
+  display: flex;
+  align-self: center;
+  padding: 5px;
+}
+
+.footer__like,
+.footer__comment,
+.footer__mark {
+  border: none;
+  background: transparent;
+  font-size: 24px;
+}
+
+.footer__like:hover {
+  color: red;
+}
+
+.footer__mark {
+  justify-self: flex-end;
+  margin-left: auto;
+}
+
+.footer__bottom {
+  display: flex;
+  align-self: center;
+  padding: 5px;
+  background: #f2f2f2;
+}
+
+.footer__text {
+  padding-left: 5px;
+}
+
+.footer__link {
+  color: black;
+  font-weight: bold;
+}
